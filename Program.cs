@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Hola Profe, Esta es la carpeta principal donde estaran todos los ejercios");
         }
     }
 }
