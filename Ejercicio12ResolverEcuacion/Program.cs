@@ -39,9 +39,8 @@ namespace Ejercicio12ResolverEcuacion
             }
             else 
             {
-                // Constante operacion negativo, soluciones conjugadas
-
-                Console.WriteLine("Solucion Conjugada");     
+               
+                Console.WriteLine("No tiene solucion");     
             
             
             }
