@@ -14,11 +14,12 @@
 
             // Creacion del Ciclo
 
-            while (validador == true ) 
+            while (validador) // Banderea o Flag validador siempre es true
             {
                 Console.Write("Ingrese un numero: ");
                 num = Convert.ToInt32(Console.ReadLine());
 
+                //si el numero es menor a cero muestra los numeros positivos ingresados
                 if (num < 0 )
                 {
                    validador = false;
