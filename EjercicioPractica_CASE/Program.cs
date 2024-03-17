@@ -30,11 +30,14 @@ namespace EjercicioPractica_CASE
                 Console.WriteLine("|4. DIVISION                                         |");
                 Console.WriteLine("|0. SALIR                                            |");
                 Console.WriteLine("|----------------------------------------------------|");
-                option = Convert .ToInt32(Console.ReadLine());
+                option = Convert.ToInt32(Console.ReadLine());
 
                 switch (option)
                 {
-                    case 1: 
+                    case 0:
+                        exit = true;
+                        break;
+                    case 1:
                         suma = num1 + num2;
                         Console.WriteLine(string.Format("{0} + {1} = {2}", num1, num2, suma));
                         break;
@@ -53,30 +56,17 @@ namespace EjercicioPractica_CASE
                             cociente = num1 / num2;
                             Console.WriteLine(string.Format("{0} / {1} = {2}", num1, num2, cociente));
                         }
-                        else Console.WriteLine("No se puede dividir por cero");                       
+                        else Console.WriteLine("No se puede dividir por cero");
                         break;
 
                     default:
 
-                        exit = true;
-
-                        break;                      
+                        Console.WriteLine("la Opcion" + option + " no es valida. DIgite una opcion valida");
+                        break;
                 }
-
+                while (!exit) ;
+                           
             }
-
-
-          //Mientras exit no sea falso entre por aca con el signo de interrogacion !
-
-            while (! exit) { }
-
-        } 
-
-        }
-
-
-
-
         }
     }
 }
