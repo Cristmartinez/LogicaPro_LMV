@@ -36,7 +36,7 @@ namespace Ejercicio14_Taller
             //cuenta los numeros desde el menor hasta el numero mayor de uno a uno
             for (double i = numMenor; i <= numMayor; i++ ) 
             {
-                Console.WriteLine(i); 
+                Console.WriteLine(i);
 
             }
             
